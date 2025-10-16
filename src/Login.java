@@ -64,6 +64,11 @@ public class Login extends javax.swing.JFrame {
         jTextField1.setBorder(new javax.swing.border.MatteBorder(null));
 
         jButton1.setText("Cancelar");
+        jButton1.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                jButton1ActionPerformed(evt);
+            }
+        });
 
         jButton2.setText("Ingresar");
         jButton2.addActionListener(new java.awt.event.ActionListener() {
@@ -266,6 +271,11 @@ psw.setText("");        // TODO add your handling code here:
   new Punto().setVisible(true);        // TODO add your handling code here:
     }//GEN-LAST:event_jButton2ActionPerformed
 
+    private void jButton1ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton1ActionPerformed
+iniCaja.setVisible(false);        // TODO add your handling code here:
+x.setVisible(true);
+    }//GEN-LAST:event_jButton1ActionPerformed
+
     /**
      * @param args the command line arguments
      */
@@ -317,6 +327,6 @@ psw.setText("");        // TODO add your handling code here:
     public static javax.swing.JPanel jPanel2;
     public static javax.swing.JTextField jTextField1;
     public static javax.swing.JPasswordField psw;
-    private javax.swing.JComboBox<String> usuario;
+    public static javax.swing.JComboBox<String> usuario;
     // End of variables declaration//GEN-END:variables
 }

@@ -5,7 +5,6 @@ import javax.swing.JOptionPane;
  * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
  * Click nbfs://nbhost/SystemFileSystem/Templates/GUIForms/JFrame.java to edit this template
  */
-
 /**
  *
  * @author david
@@ -15,8 +14,8 @@ public class Login extends javax.swing.JFrame {
     /**
      * Creates new form Login
      */
-    
-     static Login x=new Login();
+    static Login x = new Login();
+
     public Login() {
         initComponents();
     }
@@ -235,20 +234,19 @@ public class Login extends javax.swing.JFrame {
     }//GEN-LAST:event_usuarioActionPerformed
 
     private void btnAceptarActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btnAceptarActionPerformed
-        String usr,contra;
+        String usr, contra;
 
-        usr= String.valueOf(usuario.getSelectedItem());
-        contra=String.valueOf( psw.getPassword());
-        if(  Registro.login(usr,contra)==true){
+        usr = String.valueOf(usuario.getSelectedItem());
+        contra = String.valueOf(psw.getPassword());
+        if (Registro.login(usr, contra) == true) {
             System.out.println("Login exitosamente");
-           x.setVisible(false);
+            x.setVisible(false);
             iniCaja.setVisible(true);
-            
-            
-           //  new Punto().setVisible(true);
-        }else{
+
+            //  new Punto().setVisible(true);
+        } else {
             //System.out.println("Credenciales no validas");
-            JOptionPane.showMessageDialog(this,"Credenciales no validas");
+            JOptionPane.showMessageDialog(this, "Credenciales no validas");
         }
 
         // TODO add your handling code here:
@@ -259,11 +257,11 @@ public class Login extends javax.swing.JFrame {
     }//GEN-LAST:event_pswActionPerformed
 
     private void btnCancelarActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btnCancelarActionPerformed
-psw.setText("");        // TODO add your handling code here:
+        psw.setText("");        // TODO add your handling code here:
     }//GEN-LAST:event_btnCancelarActionPerformed
 
     private void jButton2ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton2ActionPerformed
-  new Punto().setVisible(true);        // TODO add your handling code here:
+        new Punto().setVisible(true);        // TODO add your handling code here:
     }//GEN-LAST:event_jButton2ActionPerformed
 
     /**
@@ -296,8 +294,8 @@ psw.setText("");        // TODO add your handling code here:
         /* Create and display the form */
         java.awt.EventQueue.invokeLater(new Runnable() {
             public void run() {
-               // new Login().setVisible(true);
-              //  Login x=new Login();
+                // new Login().setVisible(true);
+                //  Login x=new Login();
                 x.setVisible(true);
             }
         });

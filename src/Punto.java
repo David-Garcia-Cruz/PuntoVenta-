@@ -64,6 +64,7 @@ public class Punto extends javax.swing.JFrame {
         );
 
         jButton1.setFont(new java.awt.Font("Source Code Pro Light", 0, 18)); // NOI18N
+        jButton1.setForeground(new java.awt.Color(255, 255, 255));
         jButton1.setText("Ventas");
         jButton1.setBorder(new javax.swing.border.SoftBevelBorder(javax.swing.border.BevelBorder.RAISED));
         jButton1.addActionListener(new java.awt.event.ActionListener() {

@@ -259,7 +259,7 @@ public class Login extends javax.swing.JFrame {
            //  new Punto().setVisible(true);
         }else{
             //System.out.println("Credenciales no validas");
-            JOptionPane.showMessageDialog(this,"Credenciales no validas");
+            JOptionPane.showMessageDialog(this,"Credenciales no validas","",JOptionPane.PLAIN_MESSAGE);
         }
 
         // TODO add your handling code here:

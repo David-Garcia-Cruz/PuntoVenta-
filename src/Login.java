@@ -52,11 +52,12 @@ public class Login extends javax.swing.JFrame {
         iniCaja.setResizable(false);
         iniCaja.setSize(new java.awt.Dimension(475, 316));
 
-        jPanel2.setBackground(new java.awt.Color(5, 32, 143));
+        jPanel2.setBackground(new java.awt.Color(0, 0, 102));
         jPanel2.setAlignmentX(720.0F);
         jPanel2.setAlignmentY(500.0F);
 
         jLabel4.setFont(new java.awt.Font("David Libre", 1, 24)); // NOI18N
+        jLabel4.setForeground(new java.awt.Color(255, 255, 255));
         jLabel4.setText("Ingrese el dinero en caja:");
 
         jTextField1.setFont(new java.awt.Font("David Libre", 0, 18)); // NOI18N

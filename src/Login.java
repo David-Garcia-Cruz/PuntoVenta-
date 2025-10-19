@@ -124,15 +124,17 @@ public class Login extends javax.swing.JFrame {
         setBounds(new java.awt.Rectangle(350, 200, 0, 0));
         setResizable(false);
 
-        jPanel1.setBackground(new java.awt.Color(13, 37, 160));
+        jPanel1.setBackground(new java.awt.Color(0, 0, 102));
         jPanel1.setPreferredSize(new java.awt.Dimension(854, 480));
         jPanel1.setRequestFocusEnabled(false);
         jPanel1.setVerifyInputWhenFocusTarget(false);
 
         jLabel1.setFont(new java.awt.Font("Source Code Pro", 3, 48)); // NOI18N
+        jLabel1.setForeground(new java.awt.Color(255, 255, 255));
         jLabel1.setText("Mi Punto de Venta ");
 
         jLabel2.setFont(new java.awt.Font("SimSun", 3, 18)); // NOI18N
+        jLabel2.setForeground(new java.awt.Color(255, 255, 255));
         jLabel2.setText("usuario");
 
         usuario.setModel(new javax.swing.DefaultComboBoxModel<>(new String[] { "Super Admin", "Admin", "Cajero1" }));
@@ -143,6 +145,7 @@ public class Login extends javax.swing.JFrame {
         });
 
         jLabel3.setFont(new java.awt.Font("SimSun", 3, 18)); // NOI18N
+        jLabel3.setForeground(new java.awt.Color(255, 255, 255));
         jLabel3.setText("Contraseña");
 
         psw.addActionListener(new java.awt.event.ActionListener() {

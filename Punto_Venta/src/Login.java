@@ -123,9 +123,10 @@ public class Login extends javax.swing.JFrame {
 
         setDefaultCloseOperation(javax.swing.WindowConstants.DO_NOTHING_ON_CLOSE);
         setBounds(new java.awt.Rectangle(350, 200, 0, 0));
-        setMaximumSize(new java.awt.Dimension(520, 416));
+        setMaximumSize(new java.awt.Dimension(550, 450));
+        setPreferredSize(new java.awt.Dimension(550, 450));
         setResizable(false);
-        setSize(new java.awt.Dimension(520, 416));
+        setSize(new java.awt.Dimension(520, 450));
         addWindowListener(new java.awt.event.WindowAdapter() {
             public void windowClosing(java.awt.event.WindowEvent evt) {
                 formWindowClosing(evt);
@@ -191,7 +192,7 @@ public class Login extends javax.swing.JFrame {
         });
         jPanel1.add(btnCancelar, new org.netbeans.lib.awtextra.AbsoluteConstraints(90, 380, 97, 36));
 
-        getContentPane().add(jPanel1, new org.netbeans.lib.awtextra.AbsoluteConstraints(0, 0, -1, -1));
+        getContentPane().add(jPanel1, new org.netbeans.lib.awtextra.AbsoluteConstraints(0, 0, 550, -1));
 
         pack();
     }// </editor-fold>//GEN-END:initComponents
